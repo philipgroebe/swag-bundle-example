@@ -1,0 +1,25 @@
+{
+    "name": "swag/bundle-example",
+    "description": "My own bundle example",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lenz"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Swag\\BundleExample\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\BundleExample\\BundleExample",
+        "copyright": "&copy; Lenz",
+        "label": {
+            "de-De": "Ein Beispiel für Shopware",
+            "en-GB": "An example for Shopware"
+        }
+    }
+}
